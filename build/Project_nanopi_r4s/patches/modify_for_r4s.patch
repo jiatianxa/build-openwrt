@@ -43,17 +43,7 @@ index 875813dc08..f2e186e9c2 100644
          sni = server.peer,
          alpn = {'h2', 'http/1.1'},
          curve = '',
-diff --git a/package/lean/luci-app-cpufreq/root/etc/config/cpufreq b/package/lean/luci-app-cpufreq/root/etc/config/cpufreq
-index 5c2c070e9d..3e1e8e6b66 100644
---- a/package/lean/luci-app-cpufreq/root/etc/config/cpufreq
-+++ b/package/lean/luci-app-cpufreq/root/etc/config/cpufreq
-@@ -1,3 +1,6 @@
- 
- config settings 'cpufreq'
-+       option governor0 'schedutil'
-+       option minfreq0 '816000'
-+       option maxfreq0 '1512000'
- 
+diff --git a/package/lean/luci-app-ssr-plus/root/usr/share/shadowsocksr/gen_config.lua b/package/lean/luci-app-ssr-plus/root/usr/share/shadowsocksr/gen_config.lua
 index b884c72fee..2cc9cb629d 100644
 --- a/package/lean/luci-app-ssr-plus/root/usr/share/shadowsocksr/gen_config.lua
 +++ b/package/lean/luci-app-ssr-plus/root/usr/share/shadowsocksr/gen_config.lua
